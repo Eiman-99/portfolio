@@ -1,0 +1,35 @@
+.portfolio {
+  padding: 3rem 0 5rem 0;
+
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+
+  .card {
+    background-color: #4d4d4d;
+    color: white;
+    padding: 6rem 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+    &::after {
+      content: '';
+      display: block;
+      margin: 0.5rem auto 0;
+      width: 40%;
+      border-bottom: 2px solid #ccc;
+    }
+
+    &.dark {
+      background-color: #3b3937;
+    }
+  }
+}
