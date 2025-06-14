@@ -1,0 +1,33 @@
+.hero{
+    background: url("../assets/images/Cover.png") no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    h1,h3{
+        color: #fff;
+        font-weight: 500;
+    }
+
+    h1{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    h3{
+        font-weight: 400;
+        color: #ebebeb;
+    }
+
+    button{
+        background: none;
+        margin-top: 1.5rem;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 0.7rem 1rem;
+        cursor: pointer;
+    }
+
+}
